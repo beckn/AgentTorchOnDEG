@@ -1,0 +1,6 @@
+[submodule "AgentTorch"]
+	path = AgentTorch
+	url = https://github.com/AgentTorch/AgentTorch.git
+[submodule "sim2real"]
+	path = sim2real
+	url = https://github.com/AgentTorch/sim2real.git
