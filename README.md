@@ -1,17 +1,19 @@
 # AgentTorchOnDEG
 
-A project for analyzing Differential Expression Genes (DEG) using agent-based modeling.
+AgentTorchOnDEG is an experimental platform for simulating energy transactions on a digital electricity grid. The goal of the project is to showcase how Beckn Protocol based APIs can support open and interoperable energy services.
 
 ## Description
 
-This project implements an agent-based modeling approach to analyze Differential Expression Genes (DEG). It provides tools and utilities for processing, analyzing, and visualizing gene expression data through the lens of agent-based modeling.
+The repository provides workflow guides and sample message sequences for common electricity use cases such as connection requests, peer-to-peer trading, solar installation and battery rental. These guides illustrate how different participants interact in a decentralized marketplace. The codebase will gradually include simulation tools to model these interactions on a small scale grid.
 
 ## Features
 
-- Agent-based modeling of gene expression data
-- Differential Expression Gene (DEG) analysis
-- Data processing and visualization tools
-- Extensible architecture for custom analysis pipelines
+- Simulated peer-to-peer energy trading
+- Connection service onboarding flows
+- Solar panel installation and battery storage rental workflows
+- Demand flexibility and subsidy examples
+- Reference BAP/BPP message sequences using the Beckn Protocol
+- Placeholder modules for advanced grid simulations
 
 ## Installation
 
@@ -21,12 +23,12 @@ git clone https://github.com/yourusername/AgentTorchOnDEG.git
 cd AgentTorchOnDEG
 
 # Install dependencies
-[Add installation instructions specific to your project]
+# (To be added)
 ```
 
 ## Usage
 
-[Add usage instructions and examples here]
+Consult the guides under `docs/implementation_guides/beckn_workflows` for a step-by-step description of the sample workflows. Simulation scripts will be added over time.
 
 ## Contributing
 
@@ -35,17 +37,3 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Citation
-
-If you use this software in your research, please cite:
-
-[Add citation information here]
-
-## Contact
-
-[Add contact information here]
-
-## Acknowledgments
-
-[Add acknowledgments here] 
